@@ -9,7 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Medium", "Medium", "{840ED8
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hard", "Hard", "{B9D62313-B678-47EC-A8A7-4656F8E6609E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageOverlap", "Medium\ImageOverlap\ImageOverlap.csproj", "{F28500E0-9469-46FF-B018-70F2CF5B8962}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageOverlap", "Medium\ImageOverlap\ImageOverlap.csproj", "{F28500E0-9469-46FF-B018-70F2CF5B8962}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "Easy\TwoSum\TwoSum.csproj", "{939CFEDA-F240-406D-8A8B-E3BB03CFABDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,12 +23,17 @@ Global
 		{F28500E0-9469-46FF-B018-70F2CF5B8962}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F28500E0-9469-46FF-B018-70F2CF5B8962}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F28500E0-9469-46FF-B018-70F2CF5B8962}.Release|Any CPU.Build.0 = Release|Any CPU
+		{939CFEDA-F240-406D-8A8B-E3BB03CFABDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{939CFEDA-F240-406D-8A8B-E3BB03CFABDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{939CFEDA-F240-406D-8A8B-E3BB03CFABDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{939CFEDA-F240-406D-8A8B-E3BB03CFABDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F28500E0-9469-46FF-B018-70F2CF5B8962} = {840ED8A9-823B-4E05-919F-B8488B0A218D}
+		{939CFEDA-F240-406D-8A8B-E3BB03CFABDA} = {B3B91047-02F5-4CDC-B856-FE4A2E2D5D66}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {998B12CD-31E4-464D-8D54-CAF286748C34}
